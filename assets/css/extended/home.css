@@ -1,0 +1,10 @@
+.main .profile {
+    min-height: auto;
+    padding: 48px 0 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .main .profile {
+        padding: 32px 0 24px;
+    }
+}
