@@ -12,9 +12,18 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
-  [params.homeInfoParams]
+  [params.profileMode]
+    enabled = true
     Title = "Hi, I'm Khang 👋"
-    Content = "Welcome to my personal blog."
+    subtitle = "Welcome to my personal blog."
+    imageUrl = "images/avatar-kaka.jpg"
+    imageTitle = "Kaka"
+    imageWidth = 180
+    imageHeight = 180
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts/"
 
 [[menu.main]]
   identifier = "posts"
