@@ -21,10 +21,6 @@ theme = "PaperMod"
     imageWidth = 180
     imageHeight = 180
 
-    [[params.profileMode.buttons]]
-      name = "Posts"
-      url = "/posts/"
-
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
